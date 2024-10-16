@@ -1,0 +1,49 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #0056b3; /* Azul UNIFEI */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 2.5em;
+}
+
+/* Estilo da seção principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilo responsivo */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
